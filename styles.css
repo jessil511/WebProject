@@ -1,0 +1,48 @@
+
+body {
+    padding-top: 56px; 
+}
+
+
+.container {
+    margin-top: 50px; 
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+.gallery-item {
+    margin-bottom: 30px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%; /* Aspect ratio for 16:9 video */
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.logo {
+    height: 40px; /* Set the desired height for the logo */
+}
+.social-link {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.social-link img {
+    width: 50px; /* Adjust the size of social media icons */
+    height: auto;
+}
+
+.social-link p {
+    margin-top: 10px;
+}
